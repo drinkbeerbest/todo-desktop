@@ -67,4 +67,6 @@ node tests/packaged.mjs
 模型测试覆盖日期边界、备份校验、任务过滤和排序。桌面测试在独立数据目录中验证实际 Electron 窗口的新增、完成礼花、撤销、编辑、搜索、笔记、主题、文件备份和重启恢复，并检查 880 × 600 与 1440 × 960 窗口。预览截图位于 `artifacts`，测试数据位于 `.test-data`。
 
 
+![待办软件桌面界面](artifacts/01-today.png)
+
 下载程序：[v1.0.2](https://github.com/drinkbeerbest/todo-desktop/releases/tag/v1.0.2)。
