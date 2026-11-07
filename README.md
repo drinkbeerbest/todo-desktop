@@ -1,4 +1,4 @@
-# 留白
+# 待办软件
 
 给重要的事，一点空间。
 
@@ -8,9 +8,9 @@
 
 ## 直接使用
 
-双击项目根目录的 **启动留白.cmd**，或者打开 **release/win-unpacked/留白.exe**。请保留 `win-unpacked` 内的其他文件。
+双击项目根目录的 **启动待办软件.cmd**，或者打开 **release/win-unpacked/待办软件.exe**。请保留 `win-unpacked` 内的其他文件。
 
-需要复制到其他电脑时，使用 **release/Liubai-1.0.2-Windows.exe**。它是独立的免安装程序，无需另装 Node.js。适用于 Windows 10 / 11 x64。
+需要复制到其他电脑时，使用 **release/Todo-1.0.2-Windows.exe**。它是独立的免安装程序，无需另装 Node.js。适用于 Windows 10 / 11 x64。
 
 第一次打开从空白开始，不预置待办记录或笔记。内容由你自己添加。
 
@@ -27,7 +27,7 @@
 
 ## 数据与备份
 
-内容默认保存在 `%APPDATA%\留白\liubai.json`，不需要账号或网络。每次保存会保留前一个有效版本 `liubai.json.bak`；启动时主文件不可读，会尝试从完整的保存日志或备份恢复，并保留损坏原文件。对不支持原生文件替换的 Windows 目录，会自动使用兼容保存方式。
+内容默认保存在 `%APPDATA%\待办软件\liubai.json`，不需要账号或网络。每次保存会保留前一个有效版本 `liubai.json.bak`；启动时主文件不可读，会尝试从完整的保存日志或备份恢复，并保留损坏原文件。对不支持原生文件替换的 Windows 目录，会自动使用兼容保存方式。
 
 在「设置 → 数据与备份」导出或导入 JSON。导入会先验证文件，再显示确认；恢复会替换当前内容，建议先导出当前数据。
 
@@ -68,6 +68,5 @@ node tests/packaged.mjs
 
 模型测试覆盖日期边界、备份校验、任务过滤和排序。桌面测试在独立数据目录中验证实际 Electron 窗口的新增、完成礼花、撤销、编辑、搜索、笔记、主题、文件备份和重启恢复，并检查 880 × 600 与 1440 × 960 窗口。预览截图位于 `artifacts`，测试数据位于 `.test-data`。
 
-![留白桌面界面](artifacts/01-today.png)
 
-下载程序：[v1.0.2](https://github.com/drinkbeerbest/liubai-desktop-public/releases/tag/v1.0.2)。
+下载程序：[v1.0.2](https://github.com/drinkbeerbest/todo-desktop/releases/tag/v1.0.2)。
