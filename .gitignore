@@ -1,0 +1,17 @@
+node_modules/
+dist/
+release/
+.test-data/
+test-results/
+*.log
+.npm-cache/
+.build-tmp/
+.builder-cache/
+
+.env
+.env.*
+*.pem
+*.pfx
+*.p12
+liubai.json*
+留白备份*.json
